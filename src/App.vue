@@ -1,13 +1,13 @@
 <template>
-  <v-app light>
+  <v-app dark>
     <v-navigation-drawer persistent :mini-variant="miniVariant" v-model="drawer" enable-resize-watcher app>
       <v-list>
         <v-list-tile v-for="(item, i) in items" :key="i" value="true">
           <v-list-tile-action>
-            <v-icon light v-html="item.icon"></v-icon>
+            <v-icon class="white--text" v-html="item.icon"></v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title v-text="item.title"></v-list-tile-title>
+            <v-list-tile-title class="white--text" v-text="item.title"></v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
       </v-list>
@@ -32,7 +32,18 @@
                     </div>
                   </v-card-title>
                   <v-card-actions>
-                    <v-btn flat color="orange">Share</v-btn>
+                    <v-dialog v-model="dialog" persistent>
+                      <v-btn color="orange" flat slot="activator">Share</v-btn>
+                      <v-card>
+                        <v-card-title class="headline">Use Google's location service?</v-card-title>
+                        <v-card-text>Let Google help apps determine location. This means sending anonymous location data to Google, even when no apps are running.</v-card-text>
+                        <v-card-actions>
+                          <v-spacer></v-spacer>
+                          <v-btn color="green darken-1" flat @click.native="dialog = false">Disagree</v-btn>
+                          <v-btn color="green darken-1" flat @click.native="dialog = false">Agree</v-btn>
+                        </v-card-actions>
+                      </v-card>
+                    </v-dialog>
                     <v-btn flat color="orange">Explore</v-btn>
                   </v-card-actions>
                 </v-card>
@@ -121,6 +132,22 @@
                   </v-card-actions>
                 </v-card>
               </v-flex>
+              <v-flex xs12 sm12 lg12>
+                <v-card>
+                  <v-card-media src="https://vuetifyjs.com/static/doc-images/cards/desert.jpg" height="200px">
+                  </v-card-media>
+                  <v-card-title primary-title>
+                    <div>
+                      <h3 class="headline mb-0">fsdkjfhsd fjshf ksd</h3>
+                      <div>Located two hours south of Sydney in the <br>Southern Highlands of New South Wales, ...</div>
+                    </div>
+                  </v-card-title>
+                  <v-card-actions>
+                    <v-btn flat color="orange">Share</v-btn>
+                    <v-btn flat color="orange">Explore</v-btn>
+                  </v-card-actions>
+                </v-card>
+              </v-flex>
             </v-layout>
           </v-slide-y-transition>
         </v-container>
@@ -162,7 +189,8 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Travel App One'
+      title: 'Travel App One+',
+      dialog: false
     }
   }
 }
