@@ -162,7 +162,7 @@
 export default {
   data() {
     return {
-      drawer: false,
+      drawer: true,
       fixed: false,
       items: [
         { icon: 'home', title: 'Home' },
