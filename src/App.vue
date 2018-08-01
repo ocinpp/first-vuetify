@@ -23,7 +23,7 @@
             <v-layout row wrap>
               <v-flex xs12 sm6 lg4>
                 <v-card>
-                  <v-card-media src="http://www.discoverhongkong.com/eng/images/see-do/highlight-attractions/large/1.1.1.11-Lan-Kwai-Fong_03b.jpg" height="200px">
+                  <v-card-media src="//www.discoverhongkong.com/eng/images/see-do/highlight-attractions/large/1.1.1.11-Lan-Kwai-Fong_03b.jpg" height="200px">
                   </v-card-media>
                   <v-card-title primary-title>
                     <div>
@@ -50,7 +50,7 @@
               </v-flex>
               <v-flex xs12 sm6 lg4>
                 <v-card>
-                  <v-card-media src="http://www.discoverhongkong.com/eng/images/see-do/highlight-attractions/large/1.1.1.8-Temple-Street-Night-Market_01.jpg" height="200px">
+                  <v-card-media src="//www.discoverhongkong.com/eng/images/see-do/highlight-attractions/large/1.1.1.8-Temple-Street-Night-Market_01.jpg" height="200px">
                   </v-card-media>
                   <v-card-title primary-title>
                     <div>
@@ -68,7 +68,7 @@
               </v-flex>
               <v-flex xs12 sm6 lg4>
                 <v-card>
-                  <v-card-media src="https://www.discoverhongkong.com/ca/images/see-do/highlight-attractions/large/1.1.1.3-Ladies%27-Market_03.jpg" height="200px">
+                  <v-card-media src="//www.discoverhongkong.com/ca/images/see-do/highlight-attractions/large/1.1.1.3-Ladies%27-Market_03.jpg" height="200px">
                   </v-card-media>
                   <v-card-title primary-title>
                     <div>
@@ -84,7 +84,7 @@
               </v-flex>
               <v-flex xs12 sm6 lg4>
                 <v-card>
-                  <v-card-media src="http://www.discoverhongkong.com/ca/images/see-do/highlight-attractions/large/1.1.1.4-Clock-Tower_03b.jpg" height="200px">
+                  <v-card-media src="//www.discoverhongkong.com/ca/images/see-do/highlight-attractions/large/1.1.1.4-Clock-Tower_03b.jpg" height="200px">
                   </v-card-media>
                   <v-card-title primary-title>
                     <div>
@@ -100,7 +100,7 @@
               </v-flex>
               <v-flex xs12 sm6 lg4>
                 <v-card>
-                  <v-card-media src="http://www.discoverhongkong.com/ca/images/see-do/highlight-attractions/large/1.1.1.6-Tsim-Sha-Tsui-Promende_03.jpg" height="200px">
+                  <v-card-media src="//www.discoverhongkong.com/ca/images/see-do/highlight-attractions/large/1.1.1.6-Tsim-Sha-Tsui-Promende_03.jpg" height="200px">
                   </v-card-media>
                   <v-card-title primary-title>
                     <div>
@@ -116,7 +116,7 @@
               </v-flex>
               <v-flex xs12 sm6 lg4>
                 <v-card>
-                  <v-card-media src="http://www.discoverhongkong.com/ca/images/see-do/highlight-attractions/large/1.1.1.2-Peak_03a.jpg" height="200px">
+                  <v-card-media src="//www.discoverhongkong.com/ca/images/see-do/highlight-attractions/large/1.1.1.2-Peak_03a.jpg" height="200px">
                   </v-card-media>
                   <v-card-title primary-title>
                     <div>
