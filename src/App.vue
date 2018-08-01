@@ -23,12 +23,12 @@
             <v-layout row wrap>
               <v-flex xs12 sm6 lg4>
                 <v-card>
-                  <v-card-media src="https://vuetifyjs.com/static/doc-images/cards/desert.jpg" height="200px">
+                  <v-card-media src="http://www.discoverhongkong.com/eng/images/see-do/highlight-attractions/large/1.1.1.11-Lan-Kwai-Fong_03b.jpg" height="200px">
                   </v-card-media>
                   <v-card-title primary-title>
                     <div>
-                      <h3 class="headline mb-0">Kangaroo Valley Safari</h3>
-                      <div>Located two hours south of Sydney in the <br>Southern Highlands of New South Wales, ...</div>
+                      <h3 class="headline mb-0">Lan Kwai Fong</h3>
+                      <div>Lan Kwai Fong is one of Hong Kong’s most popular nightlife hot spots and home to over 90 restaurants and bars.</div>
                     </div>
                   </v-card-title>
                   <v-card-actions>
@@ -50,15 +50,13 @@
               </v-flex>
               <v-flex xs12 sm6 lg4>
                 <v-card>
-                  <v-card-media src="https://vuetifyjs.com/static/doc-images/cards/docks.jpg" height="200px">
+                  <v-card-media src="http://www.discoverhongkong.com/eng/images/see-do/highlight-attractions/large/1.1.1.8-Temple-Street-Night-Market_01.jpg" height="200px">
                   </v-card-media>
                   <v-card-title primary-title>
                     <div>
-                      <h3 class="headline mb-0">Top 10 Australian beaches</h3>
+                      <h3 class="headline mb-0">Temple Street Night Market</h3>
                       <div>
-                        <span class="grey--text">Number 10</span><br>
-                        <span>Whitehaven Beach</span><br>
-                        <span>Whitsunday Island, Whitsunday Islands</span>
+                        Souvenirs, snacks, opera singers and fortune tellers – ordered chaos in action.
                       </div>
                     </div>
                   </v-card-title>
@@ -132,22 +130,6 @@
                   </v-card-actions>
                 </v-card>
               </v-flex>
-              <v-flex xs12 sm12 lg12>
-                <v-card>
-                  <v-card-media src="https://vuetifyjs.com/static/doc-images/cards/desert.jpg" height="200px">
-                  </v-card-media>
-                  <v-card-title primary-title>
-                    <div>
-                      <h3 class="headline mb-0">fsdkjfhsd fjshf ksd</h3>
-                      <div>Located two hours south of Sydney in the <br>Southern Highlands of New South Wales, ...</div>
-                    </div>
-                  </v-card-title>
-                  <v-card-actions>
-                    <v-btn flat color="orange">Share</v-btn>
-                    <v-btn flat color="orange">Explore</v-btn>
-                  </v-card-actions>
-                </v-card>
-              </v-flex>
             </v-layout>
           </v-slide-y-transition>
         </v-container>
@@ -164,7 +146,7 @@
       </v-list>
     </v-navigation-drawer>
     <v-footer :fixed="fixed" app>
-      <span>&copy; 2017</span>
+      <span>&copy; 2018</span>
     </v-footer>
   </v-app>
 </template>
@@ -180,7 +162,7 @@
 export default {
   data() {
     return {
-      drawer: true,
+      drawer: false,
       fixed: false,
       items: [
         { icon: 'home', title: 'Home' },
