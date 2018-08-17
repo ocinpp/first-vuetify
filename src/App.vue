@@ -1,6 +1,6 @@
 <template>
   <v-app dark>
-    <v-navigation-drawer persistent :mini-variant="miniVariant" v-model="drawer" enable-resize-watcher app>
+    <v-navigation-drawer :mini-variant="miniVariant" v-model="drawer" enable-resize-watcher app>
       <v-list>
         <v-list-tile v-for="(item, i) in items" :key="i" value="true">
           <v-list-tile-action>
@@ -168,10 +168,10 @@ export default {
         { icon: 'home', title: 'Home' },
         { icon: 'face', title: 'User' }
       ],
-      miniVariant: false,
+      miniVariant: true,
       right: true,
       rightDrawer: false,
-      title: 'Travel App One+',
+      title: 'Travel App One++',
       dialog: false
     }
   }
